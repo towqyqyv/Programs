@@ -1,0 +1,31 @@
+<!-- Program 19:- Create a webpage using different level of style sheets. -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lab_Program_19</title>
+    </head>
+    <body style="font-size:20px">
+        <center>
+            Inline Example:-<br/>
+            <p style="color: blue; padding: 10px; text-decoration: underline;">
+                Applies styles directely to the elements(tags) by using style attribute.
+            </p>
+
+            Internal Example:-<br/>
+            <style>
+                p
+                {
+                    color: red;
+                    padding: 10px;
+                    text-decoration: underline;
+                }
+            </style>
+            <p>Applies styles to HTML by placing the css rules inside the style tag.</p>
+
+            External Example:-<br/>
+            <link rel="stylesheet" type="text/css" href="P19.css">
+            <h1>Applies styles as a seperate file with a .css extention.</h1>
+        </center>
+    </body>
+</html>
