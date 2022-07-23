@@ -1,0 +1,23 @@
+<!-- Program 16:- Create a webpage to find. -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lab_Program_16</title>
+    </head>
+    <body style="font-size:30px">
+        <center>
+            <p id="p1">Please locate where 'locate' occurs.</p>
+            <button onclick="myfunction()">Try It.</button>
+            <p id="demo"></p>
+            <script>
+                function myfunction()
+                {
+                    var str=document.getElementById("p1").innerHTML;
+                    var pos=str.indexOf("locate");
+                    document.getElementById("demo").innerHTML=pos;
+                }
+            </script>
+        </center>
+    </body>
+</html>
